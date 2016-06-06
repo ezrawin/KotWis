@@ -1,0 +1,126 @@
+/*
+	Theme Name: CSS3 Contact Form
+	Date: April 2013
+	Description: Basic HTML5/CSS3 contact form
+	Version: 1.0
+	Author: Christian Vasile
+	Author URL: http://christianvasile.com
+*/
+
+/* ===========================
+   ======= Body style ======== 
+   =========================== */
+
+h2 {
+	margin-bottom: 20px;
+	color: #474E69;
+}
+		
+#kotak-kiri{
+	width: 374px;
+	height: 292px;
+	margin: 48px;
+	padding: 0px;
+	float: left;
+	background: url(../images/contact-us.jpg);
+	border: 0px solid maroon;
+	background-color: #f76b6b;
+   }
+   
+#kotak-image{
+	width: 372px;
+	height: 176px;
+	margin: 50px;
+	padding: 10px;
+	float: left;
+	background: url(../images/thankyou.png);
+	border: 0px solid maroon;
+   }
+   
+#kotak-kanan{
+	width: 460px;
+	height: 600px;
+	margin: 25px;
+	padding: 40px;
+	float:right;
+	background-color: #f60606;
+	border:0px solid green;
+   }
+   
+/* ===========================
+   ====== Contact Form ======= 
+   =========================== */
+ 
+ h2.contact { padding-left: 125px; font-size: 42px; color: #f4ed73; margin: 20px; height: 105px; background: url(../images/contact.png) no-repeat -10px -10px;  font-family: 'YanoneKaffeesatzRegular';}
+
+input, textarea {
+	padding: 10px;
+	border: 1px solid #E5E5E5;
+	width: 200px;
+	color: #999999;
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
+	-moz-box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;		
+}
+
+textarea {
+	width: 375px;
+	height: 125px;
+	max-width: 400px;
+	line-height: 18px;
+}
+
+input:hover, textarea:hover,
+input:focus, textarea:focus {
+	border-color: 1px solid #C9C9C9;
+	box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 8px;
+	-moz-box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 8px;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 8px;	
+}
+
+.form label {
+	margin-left: 10px;
+	color: #999999;
+}
+
+/* ===========================
+   ====== Submit Button ====== 
+   =========================== */
+   
+/* Styles the submit button */
+#submit {
+	/* background:url(images/submit.png); */
+	width:100px;
+	height:40px;
+	text-align: center;
+	/* text-indent:-9999px; */
+	border:none;
+	margin-top:20px;
+	cursor:pointer;border: 2px solid maroon;
+}
+
+/* Styles the submit hover */	
+#submit:hover {
+	color:#fff;
+	background-color: #97999a;
+	opacity:0.9;
+}
+
+/* Styles the cancel button*/	
+#cancel {
+	/* background:url(images/cancel.png); */
+	width:100px;
+	height:40px;
+	text-align: center;
+	/* text-indent:-9999px; */
+	border:none;
+	margin-top:20px;
+	cursor:pointer;border: 2px solid maroon;
+}
+
+/* Styles the cancel hover */
+#cancel:hover {
+	color:#fff;
+	background-color: #97999a;
+	opacity:0.9;
+}
